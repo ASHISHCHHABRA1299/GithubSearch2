@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String username=usernm.getText().toString();
                 Intent i=new Intent(MainActivity.this,profileActivity.class);
-                i.putExtra("user",username); //user=get from the edittext
+                i.putExtra("Username",username); //user=get from the edittext
                 startActivity(i);
             }
         });
