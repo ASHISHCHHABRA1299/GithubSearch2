@@ -63,7 +63,6 @@ public class profileActivity extends AppCompatActivity {
                         Toast.makeText(profileActivity.this, "Unable to Fetch to data", Toast.LENGTH_SHORT).show();
                     }
                 });
-
         MySingleton.getInstance(profileActivity.this).addToRequestQueue(jsonObjectRequest);
     }
     public void loadrepository(String url)
