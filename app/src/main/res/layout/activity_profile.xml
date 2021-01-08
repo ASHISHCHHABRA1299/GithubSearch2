@@ -59,5 +59,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff"/>
+        android:background="#ffffff"
+        tools:listitem="@layout/repoitem"
+        android:scrollbars="vertical"
+        />
 </LinearLayout>
